@@ -1,0 +1,53 @@
+/* Reset & Base */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #0d0d0d;
+  color: #e0e0e0;
+  line-height: 1.6;
+  padding: 0 10px;
+}
+
+/* Header */
+header {
+  background: #1a1a1a;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 2px solid #ff004c;
+}
+header h1 { color: #ff004c; font-size: 1.8rem; }
+nav a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+}
+nav a:hover { color: #ff7aa2; }
+
+/* Sections */
+section { max-width: 900px; margin: 40px auto; padding: 20px; }
+h2 {
+  border-bottom: 2px solid #ff004c;
+  padding-bottom: 5px;
+  margin-bottom: 20px;
+}
+
+/* Skills */
+#skills ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 10px;
+  list-style: none;
+}
+#skills li {
+  background: #1a1a1a;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  border-top: 2px solid #ff004c;
+  font-size: 0.9rem;
+}
